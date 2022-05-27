@@ -1,0 +1,10 @@
+(setq fileName(strcat (getvar 'DWGPREFIX) (substr (setq dwg (getvar 'DWGNAME)) 1 (- (strlen dwg) 4)) ".pdf"))
+filedia
+0
+(command "._zoom" "_e")
+(command "._imageframe" 1)
+(command "._imageframe" 0)
+(command "-PLOT" "Yes" "Model" "DWG To PDF.pc3" "ANSI expand D (34.00 x 22.00 Inches)" "Inches" "Landscape" "No" "Extents" "Fit" "Center" "Yes" "WB.ctb" "Yes" "As displayed" fileName "Yes" "Yes")
+(command "._qsave")
+filedia
+1
