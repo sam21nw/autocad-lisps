@@ -12,3 +12,4 @@
 (autoload "BackgroundChanger" '("BGGREY" "BGBLACK" "BGWHITE"))
 (autoload "PlotSettings" '("CPLOTANSIB" "CPLOTANSID" "CPLOTCUTEPDFISOA1" "CPLOTPDFCREATORA1" "CPLOTISOA1"))
 (autoload "BFindV2-0" '("BFIND"))
+(autoload "TotalLength" '("TLEN"))
